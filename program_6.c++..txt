@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+{
+    
+int a = 9,b = 10, c = 14;
+    
+if(a<b)
+    
+{
+        
+cout<<"a is greater then b and c";
+    
+}
+    
+else if(b>a&&b>c)
+    
+{
+        
+cout<<"b is gteater then a and c";
+    
+}
+    
+else
+    
+{
+        
+cout<<"c is greater then b and a";
+    
+}
+    
+return 0;
+    
+
+}
