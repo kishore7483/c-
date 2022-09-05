@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+
+ {
+ 
+   int a = 9,b = 9;
+   
+  if(a<b)
+    
+ {
+        
+  cout<<"a is smaller then b";
+ 
+  }
+  
+   else if(a>b)
+  
+  {
+      
+   cout<<"a is gteater then b";
+  
+  }
+  
+   else
+  
+  {
+      
+   cout<<"a is greater then or equal to b";
+ 
+  }
+   
+  return 0;
+  
+  
+}
