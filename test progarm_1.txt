@@ -1,0 +1,80 @@
+#include <iostream>
+
+using namespace std;
+
+int main() 
+
+{
+
+int a,b,c,d;
+
+cout<<"enter the value of a :";
+
+cin>>a;
+
+cout<<"enter the value of b :";
+
+cin>>b;
+
+cout<<"enter the case :";
+
+cin>>c;
+
+switch(c)
+
+{
+
+case 1:
+
+ d=a+b;
+
+ cout<<d;
+ 
+break;
+ 
+
+case 2:
+
+ d=a-b;
+
+ cout<<d;
+ 
+break;
+ 
+
+case 3:
+ 
+d=a*b;
+ 
+cout<<d;
+ 
+break;
+ 
+
+case 4:
+ 
+d=a/b;
+
+ cout<<d;
+ 
+break;
+ 
+
+case 5:
+ 
+d=a%b;
+ 
+cout<<d;
+ 
+break;
+ 
+
+default:
+
+cout<<"given choice is invalid";
+
+}
+    
+return 0;
+
+}
